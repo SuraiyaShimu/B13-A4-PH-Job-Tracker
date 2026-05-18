@@ -15,9 +15,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
 
 
-     <!-- icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
      <style>
         *{
             font-family: "Outfit", sans-serif; 
@@ -53,29 +50,25 @@
 
     </header>
 
-         <div>
-            <h2 class="p-3 font-bold">Available Jobs</h2>
-         </div>
+        <div>
+           <h2 class="p-3 font-bold">Available Jobs</h2>
+        </div>
 
-         
-   
-
-    <section class="p-3 flex gap-2">
-        <button onclick="filterJobs('all')" class=" btn btn-sm">All</button>
-        <button onclick="filterJobs('interview')" class=" btn btn-sm">Interview</button>
-        <button onclick="filterJobs('rejected')" class=" btn btn-sm">Rejected</button>
-
-    </section>
+        <section class="p-3 flex gap-2">
+           <button onclick="filterJobs('all')" class=" btn btn-sm">All</button>
+           <button onclick="filterJobs('interview')" class=" btn btn-sm">Interview</button>
+           <button onclick="filterJobs('rejected')" class=" btn btn-sm">Rejected</button>
+        </section>
 
     <!-- job list -->
     <section id="job-container" class="p-3 space-y-3"></section>
 
-<!-- Empty State -->
- <section id="empty-state" class="hidden text-center p-10">
-   <img class="px-35" src="jobs.png" alt="">
-   <h2 class="mt-3 font-bold">No Jobs Available</h2>
-   <p class="text-sm text-gray-500">Check back soon for new job opportunities</p>
- </section>
+    <!-- Empty State -->
+    <section id="empty-state" class="hidden text-center p-10">
+       <img class="px-35" src="jobs.png" alt="">
+       <h2 class="mt-3 font-bold">No Jobs Available</h2>
+       <p class="text-sm text-gray-500">Check back soon for new job opportunities</p>
+    </section>
 
 
     <script src="script/machine.js"></script>
