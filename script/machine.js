@@ -6,9 +6,9 @@ function getElement (id){
 function updateText (id, value){
    getElement(id).innerText = value;
 }
-function getElement (id){
+function show (id){
    getElement(id).classList.remove("hidden");
 }
-function getElement (id){
+function hide (id){
     getElement(id).classList.add("hidden");
 }

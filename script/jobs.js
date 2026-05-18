@@ -6,7 +6,8 @@ let jobs = [
         location: "Remote",
         type: "Full-time",
         salary: "$130,000 - $175,000",
-        description: "Build cross-platform mobile applications using React Native. Work on products used by millions of users worldwide."
+        description: "Build cross-platform mobile applications using React Native. Work on products used by millions of users worldwide.",
+        status: "all"
     
     },
     {
@@ -16,7 +17,8 @@ let jobs = [
         location: "Los Angeles, CA",
         type: "Part-time",
         salary: "$80,000 - $120,000",
-        description: "Create stunning web experiences for high-profile clients. Must have portfolio and experience with modern web design trends."
+        description: "Create stunning web experiences for high-profile clients. Must have portfolio and experience with modern web design trends.",
+        status: "all"
     
     },
     {
@@ -26,7 +28,8 @@ let jobs = [
         location: "Boston, MA",
         type: "Full-time",
         salary: "$125,000 - $165,000",
-        description: "Transform complex data into compelling visualizations. Required skills: D3.js, React, and strong analytical thinking."
+        description: "Transform complex data into compelling visualizations. Required skills: D3.js, React, and strong analytical thinking.",
+        status: "all"
     
     },
     {
@@ -36,7 +39,8 @@ let jobs = [
         location: "Seattle, WA",
         type: "Full-time",
         salary: "$140,000 - $190,000",
-        description: "Design and maintain scalable backend systems using Python and AWS. Work with modern DevOps practices and cloud infrastructure."
+        description: "Design and maintain scalable backend systems using Python and AWS. Work with modern DevOps practices and cloud infrastructure.",
+        status: "all"
     
     },
     {
@@ -46,7 +50,8 @@ let jobs = [
         location: "Austin, TX",
         type: "Full-time",
         salary: " $110,000 - $150,000",
-        description: "Create beautiful and functional user interfaces for our suite of products. Strong design skills and frontend development expertise required."
+        description: "Create beautiful and functional user interfaces for our suite of products. Strong design skills and frontend development expertise required.",
+        status: "all"
     
     },
     {
@@ -56,7 +61,8 @@ let jobs = [
         location: "New York, NY",
         type: "Full-time",
         salary: "$130,000 - $170,00",
-        description: "Build enterprise applications with JavaScript and modern frameworks. We offer competitive compensation, health insurance, and professional development opportunities."
+        description: "Build enterprise applications with JavaScript and modern frameworks. We offer competitive compensation, health insurance, and professional development opportunities.",
+        status: "all"
     
     },
     {
@@ -66,7 +72,8 @@ let jobs = [
         location: "Remote",
         type: "Full-time",
         salary: " $120,000 - $160,000",
-        description: "Join our fast-growing startup and work on our core platform. Experience with Node.js and React required. Great benefits and equity package included."
+        description: "Join our fast-growing startup and work on our core platform. Experience with Node.js and React required. Great benefits and equity package included.",
+        status: "all"
     
     },
     {
@@ -76,7 +83,8 @@ let jobs = [
         location: "San Francisco, CA",
         type: "Full-time",
         salary: "$130,000 - $175,000",
-        description: "We are looking for an experienced Frontend Developer to build scalable web applications using React and TypeScript. You will work with a talented team on cutting-edge projects."
+        description: "We are looking for an experienced Frontend Developer to build scalable web applications using React and TypeScript. You will work with a talented team on cutting-edge projects.",
+        status: "all"
     
     },
 
