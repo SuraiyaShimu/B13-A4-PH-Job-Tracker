@@ -27,9 +27,9 @@ function renderJobs(list){
            </p>${job.description}</p>
         
            <div class="flex gap-2">
-               <button onclick="setStatus(${job.id}, 'interview')" class="btn btn-sm btn-success">Interview</button>
-               <button onclick="setStatus(${job.id}, 'rejected')" class="btn btn-sm btn-error">rejected</button>
-               <button onclick="deleteJob(${job.id})" class="btn btn-sm btn-warning">Delete</button>
+               <button onclick="setStatus(${job.id}, 'interview')" class="btn btn-sm text-green-600 border border-green-500 bg-white ">Interview</button>
+               <button onclick="setStatus(${job.id}, 'rejected')" class="btn btn-sm text-red-600 border border-red-500 bg-white">rejected</button>
+               <button onclick="deleteJob(${job.id})" class="btn btn-sm ">Delete</button>
            </div>
        </div>
         `;
