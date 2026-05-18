@@ -80,4 +80,8 @@ let jobs = [
     
     },
 
-]
+];
+
+function getJobs(){
+    return jobs;
+}
